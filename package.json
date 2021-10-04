@@ -1,0 +1,26 @@
+{
+  "name": "hypercore-to-http-server",
+  "version": "0.0.1",
+  "description": "Use decentrilized structures to share your website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hypercore-to-http-server": "./bin/hypercore-to-http-server.js"
+  },
+  "dependencies": {
+    "hyperbee": "^1.6.3",
+    "hypercore-x": "github:hypercore-skunkworks/hypercore-x",
+    "hyperswarm": "^3.0.0-beta3",
+    "random-access-memory": "^3.1.2",
+    "subcommand": "^2.1.1"
+  },
+  "keywords": [
+    "hypercore",
+    "web",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT"
+}
